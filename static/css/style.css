@@ -1,0 +1,130 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,{
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup{
+	display: block;
+}
+html,body{
+	background: #d2d2d2;
+	font-family: 'Lato', helvetica,;
+}
+.clear{
+	clear: both;
+	height: 10px;
+}
+p{
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+#cv{
+	width: 90%;
+	max-width: 800px;
+	background: #f3f3f3;
+	margin: 30px auto;
+}
+.mainDetails{
+	display: flex;
+	padding: 25px 35px;
+	margin-bottom: 2px solid #003660;
+	background: #ededed;
+	border-bottom: 3px solid saddlebrown;
+}
+.mainDetails section{
+	display: flex;
+
+}
+#headshot{
+	margin-top: 1px;
+	
+}
+#headshot img{
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#name{
+margin-top: 1px;
+margin-left: 30px;
+}
+#name h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+#name h2{
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#contactDetails{
+	margin-top: 1px;
+	margin-right: 5px;
+}
+#contactDetails ul{
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+#contactDetails ul li a{
+	margin-bottom: 3px;
+	color: #444;
+}
+#contactDetails ul li a, a[href^=tel]{
+	color: #444;
+	text-decoration: none;
+	-webkit-transition:all .3s ease-in;
+	-moz-transition:all .3s ease-in;
+	-o-transition:all .3s ease-in;
+	-ms-transition:all .3s ease-in;
+	transition:all .3s ease-in;
+}
+#contactDetails ul li a:hover{
+	color: #003660;
+}
+#mainArea{
+	padding: 0 40px;
+}
+#mainArea section{
+	border-bottom: 1px solid saddlebrown;
+	padding: 20px 0 0;
+}
+
+
+
+.sectionTitle{
+	float: left;
+	width: 25%;
+}
+.sectionContent{
+	float: right;
+	width: 72.5%;
+}
+.sectionTitle h1{
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: saddlebrown;
+}
+.sectionContent h2{
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+.subDetails{
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+
