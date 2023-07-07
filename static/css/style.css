@@ -80,6 +80,11 @@ margin-left: 30px;
 	font-size: 2em;
 	margin-left: 2px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	display: inline-block;
+	
+}
+span{
+	color: saddlebrown;
 }
 
 #contactDetails{
@@ -96,17 +101,12 @@ margin-left: 30px;
 	color: #444;
 }
 #contactDetails ul li a, a[href^=tel]{
-	color: #444;
+	
 	text-decoration: none;
-	-webkit-transition:all .3s ease-in;
-	-moz-transition:all .3s ease-in;
-	-o-transition:all .3s ease-in;
-	-ms-transition:all .3s ease-in;
+	color: saddlebrown;
 	transition:all .3s ease-in;
 }
-#contactDetails ul li a:hover{
-	color: #003660;
-}
+
 #mainArea{
 	padding: 0 40px;
 }
