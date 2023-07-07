@@ -49,6 +49,21 @@ p{
 	height: 100px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+	animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage {
+	0% {
+		transform: translateY(0);
+		
+	}
+	50% {
+		transform: translateY(33px);
+		
+	}
+	100% {
+		transform: translateY(0);
+		
+	}
 }
 
 #name{
