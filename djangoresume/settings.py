@@ -1,6 +1,7 @@
 import os
 
 from pathlib import Path
+import firebase_admin
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -115,3 +116,16 @@ os.path.join(BASE_DIR, 'static'),
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+import pyrebase
+
+config={
+     "apiKey": "AIzaSyCeyATBXwuySMsCGxIk-7rUV-mS3p-qyE4",
+    "authDomain": "contactform-fc473.firebaseapp.com",
+    "databaseURL": "https://contactform-fc473-default-rtdb.firebaseio.com",
+    "projectId": "contactform-fc473",
+    "storageBucket": "contactform-fc473.appspot.com",
+    "messagingSenderId": "1035070557982",
+    "appId": "1:1035070557982:web:7094306e82429d3961430f"
+}
+firebase=pyrebase.initialize_app(config)
+
